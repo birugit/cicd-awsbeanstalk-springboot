@@ -8,7 +8,7 @@ public class Hello {
 	
 	@RequestMapping("/hello")
 	public String sayHello() {
-		return "Hellow CICD AWS";
+		return "Hellow CICD AWS---do auto deploy";
 	}
 
 }
